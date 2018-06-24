@@ -17,10 +17,10 @@ go test <package_name>
 
 ## Build Go Binary File
 ```bash
-go build -o <output_file> <package_name>
+go build -o <output_file>.exe <package_name>
 ```
 
 ## Run Binary File
 ```bash
-<output_file>
+<output_file>.exe
 ```
