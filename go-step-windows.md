@@ -1,6 +1,6 @@
 # Go Step (Windows)
 
-## Go to go workspace path
+## Change directory to go workspace path
 ```bash
 cd <go_workspace_path>
 
