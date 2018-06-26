@@ -1,26 +1,31 @@
-# Go Step
+# Go Step (Windows)
 
-## Set Path ใน Windows
+## Set path
 ```bash
-setx GOPATH %CD%
+set GOPATH=%CD%
 ```
 
-## Set Path ใน Mac/Linux
+## Set path in Cygwin like Mac and Linux
 ```bash
 export GOPATH=$(pwd)
 ```
 
-## รัน Unit Test ของ package
+## Install package with package name to pkg
+```bash
+go install <package_name>
+```
+
+## Run unit test with package name
 ```bash
 go test <package_name>
 ```
 
-## Build Go Binary File
+## Build go binary file
 ```bash
 go build -o <output_file>.exe <package_name>
 ```
 
-## Run Binary File
+## Launch binary file
 ```bash
 <output_file>.exe
 ```
