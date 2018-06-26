@@ -32,5 +32,5 @@ git pull origin master
 
 ## อัพขึ้นไปเก็บไว้บน Remote Server
 ```bash
-git push origin master
+git push -u origin master
 ```
