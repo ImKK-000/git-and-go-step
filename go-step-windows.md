@@ -36,10 +36,10 @@ go test datecalculate
 
 ## Build go binary file
 ```bash
-go build -o <output_file>.exe <package_name>
+go build -o <output_file>.exe <source_file>
 
 # Example
-go build -o bin/app.exe main
+go build -o bin/app.exe src/main/main.go
 ```
 
 ## Launch binary file
