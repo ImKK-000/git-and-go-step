@@ -1,4 +1,4 @@
-# Go Step For Windows
+# Go Step For Mac and Linux
 
 ## Change directory to go workspace path
 
@@ -6,13 +6,13 @@
 cd <go_workspace_path>
 
 # Example
-cd C:\workspace
+cd ~/documents/workspace
 ```
 
 ## Set GOPATH
 
 ```bash
-set GOPATH=%CD%
+export GOPATH=$(pwd)
 ```
 
 ## Check GOPATH via go env
@@ -42,17 +42,17 @@ go test datecalculate
 ## Build main to binary file
 
 ```bash
-go build -o <output_file>.exe <path_file_main>
+go build -o <output_file> <path_file_main>
 
 # Example
-go build -o bin\main.exe src\main\main.go
+go build -o bin/main src/main/main.go
 ```
 
 ## Launch binary file
 
 ```bash
-<output_file>.exe
+<output_file>
 
 # Example
-bin\main.exe
+./bin/main
 ```
