@@ -42,10 +42,10 @@ go test datecalculate
 ## Build main to binary file
 
 ```bash
-go build -o <output_file>.exe <path_file_main>
+go build -o <output_file>.exe <source_file>
 
 # Example
-go build -o bin\main.exe src\main\main.go
+go build -o bin/main.exe src/main/main.go
 ```
 
 ## Launch binary file
